@@ -55,7 +55,7 @@ waypoints[0] = {
     "name": "not a real place"
 }
 
-# MY NOTES: Python has two spread operators, * for lists and ** for dictionaries.
+# MY NOTES: Python has two spread operators, * for lists and ** for dictionaries. HT: Nate
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
