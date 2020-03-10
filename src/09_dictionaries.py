@@ -44,8 +44,18 @@ waypoints.append({"lat": 31, "lon": 120, "name": "a fourth place"})
 # waypoints list.
 
 # YOUR CODE HERE
-waypoints[0]["lon"] = -130
-waypoints[0]["name"] = "not a real place"
+# OPTION A
+waypoints[0]["lon"] = -129
+waypoints[0]["name"] = "not a really real place"
+
+# OPTION B
+waypoints[0] = {
+    **waypoints[0],
+    "lon": -130,
+    "name": "not a real place"
+}
+
+# MY NOTES: Python has two spread operators, * for lists and ** for dictionaries.
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
